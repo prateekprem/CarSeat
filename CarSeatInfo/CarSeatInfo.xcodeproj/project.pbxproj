@@ -96,6 +96,7 @@
 		D67C1DED15BD13F400C64BBB /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C1DEC15BD13F400C64BBB /* libsqlite3.0.dylib */; };
 		D67C1DEF15BD14E400C64BBB /* CGCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DB515BD0F1200C64BBB /* CGCommon.m */; };
 		D67C1DF115BD156A00C64BBB /* Car_seat.db in Resources */ = {isa = PBXBuildFile; fileRef = D67C1DF015BD156A00C64BBB /* Car_seat.db */; };
+		D67C1DFF15BD507900C64BBB /* DBController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DFE15BD507900C64BBB /* DBController.m */; };
 		D6827CE415B9812D001649EF /* KTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CDD15B9812D001649EF /* KTTabBar.m */; };
 		D6827CE515B9812D001649EF /* KTTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6827CDE15B9812D001649EF /* KTTabBar.xib */; };
 		D6827CE615B9812D001649EF /* KTTabBarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CE015B9812D001649EF /* KTTabBarDataSource.m */; };
@@ -299,6 +300,8 @@
 		D67C1DDB15BD13A600C64BBB /* TouchSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSQL.h; sourceTree = "<group>"; };
 		D67C1DEC15BD13F400C64BBB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D67C1DF015BD156A00C64BBB /* Car_seat.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Car_seat.db; sourceTree = "<group>"; };
+		D67C1DFD15BD507900C64BBB /* DBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBController.h; sourceTree = "<group>"; };
+		D67C1DFE15BD507900C64BBB /* DBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBController.m; sourceTree = "<group>"; };
 		D6827CDC15B9812D001649EF /* KTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBar.h; sourceTree = "<group>"; };
 		D6827CDD15B9812D001649EF /* KTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBar.m; sourceTree = "<group>"; };
 		D6827CDE15B9812D001649EF /* KTTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTTabBar.xib; sourceTree = "<group>"; };
@@ -499,6 +502,7 @@
 		D67A1DF815AE9E7A00E3F1C1 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				D67C1DFB15BD505E00C64BBB /* DataBaseClass  */,
 				D6827CE915B9ABE1001649EF /* CustomView */,
 				D6827CEC15B9ABE1001649EF /* DetailedTable */,
 				D67B9E2D15B941C5000537B3 /* ProductGuideViews */,
@@ -642,6 +646,15 @@
 				D67C1DDA15BD13A600C64BBB /* NSString_SqlExtensions.m */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		D67C1DFB15BD505E00C64BBB /* DataBaseClass  */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DFD15BD507900C64BBB /* DBController.h */,
+				D67C1DFE15BD507900C64BBB /* DBController.m */,
+			);
+			path = "DataBaseClass ";
 			sourceTree = "<group>";
 		};
 		D6827CE915B9ABE1001649EF /* CustomView */ = {
@@ -1047,6 +1060,7 @@
 				D67C1DE915BD13A600C64BBB /* NSDate_SqlExtension.m in Sources */,
 				D67C1DEA15BD13A600C64BBB /* NSDictionary_SqlExtensions.m in Sources */,
 				D67C1DEB15BD13A600C64BBB /* NSString_SqlExtensions.m in Sources */,
+				D67C1DFF15BD507900C64BBB /* DBController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

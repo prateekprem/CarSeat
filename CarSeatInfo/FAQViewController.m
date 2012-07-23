@@ -9,7 +9,7 @@
 #import "FAQViewController.h"
 #import "DetailedTableDataSource.h"
 #import "DetailedTableView.h"
-
+#import "DBController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface FAQViewController ()
@@ -42,16 +42,8 @@
     [backViewForDetail addSubview:topView];
 	// Do any additional setup after loading the view.
     self.title = @"Frequently Asked Questions";
-    DetailedTableDataSource *faq = [[DetailedTableDataSource alloc]init];
-    faq.headerTitle = @"Question1: Benefits of Apple?";
-    faq.description = @"Blanket rolls may be placed on both sides of the hjkhj  hkh h jhjk hjkh jkh jkhjk jkh h jhjkh jkhjkhjk hjk jkhj jhjkhjkh jhjk jkhj jkhjk hjkhjkh jkh hjk jhj jkhjk hjk hjhjkh jkh jk jkhjk hjkh jkhjk hjk hjkh jkhjk hjk hjkh jkh hjkh jk khjk jkh jkh jkhjkhjk jkhjk jkhjk jkh jkh hjk hjkh jkhjkhjkjkh jkh jk hjkh jk h jkh jkh jkhjkh jkh jkhjk hjkhjkh jkh hkjh jkhkjh h jkh jkh h kjjh jkh jkh h jkh jk hjkh jkhjkhkjhkjhjkhh jkhjk hhjkh jkh kjh jk hhkhk hkjhjkjh khjh   Last main  Prateek,";
-    DetailedTableDataSource *faq1 = [[DetailedTableDataSource alloc]init];
-    faq1.headerTitle = @"Question2: Vitamin in Orange?";
-    faq1.description = @"answer2";
-    DetailedTableDataSource *faq2 = [[DetailedTableDataSource alloc]init];
-    faq2.headerTitle = @"Question3: Vitamin A source?";
-    faq2.description = @"answer3";
-    NSArray* dataSource = [[NSArray alloc]initWithObjects:faq,faq1,faq2, nil];
+    
+    NSArray* dataSource = [[NSArray alloc]initWithArray:[DBController getFAQs]];
     DetailedTableView *detailView = [[DetailedTableView alloc]initWithFrame:CGRectMake(0, 40, 880, 640)];
     [backViewForDetail addSubview:detailView];
     [detailView setDataSourceArr:dataSource];
