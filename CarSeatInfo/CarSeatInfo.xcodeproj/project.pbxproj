@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D63B5B1915B81FDB0037EB88 /* ProductInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B5B0F15B81FDB0037EB88 /* ProductInfo.m */; };
+		D63B5B2715B820D60037EB88 /* btn_back_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B5B2415B820D60037EB88 /* btn_back_L_ipad.png */; };
+		D63B5B2815B820D60037EB88 /* btn_dropdown_selected_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B5B2515B820D60037EB88 /* btn_dropdown_selected_L_ipad.png */; };
+		D63B5B2915B820D60037EB88 /* btn_home_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B5B2615B820D60037EB88 /* btn_home_L_ipad.png */; };
+		D63B5B2C15B820F50037EB88 /* both_nonselected_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B5B2A15B820F50037EB88 /* both_nonselected_L_ipad.png */; };
+		D63B5B2D15B820F50037EB88 /* btn_dropdown_unselected_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D63B5B2B15B820F50037EB88 /* btn_dropdown_unselected_L_ipad.png */; };
+		D63B5B3515B821580037EB88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B5B3415B821580037EB88 /* AppDelegate.m */; };
+		D665B7EB15B58716002CA1BF /* tab_faq_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E115B58716002CA1BF /* tab_faq_selected_L_iPad@2x.png */; };
+		D665B7EC15B58716002CA1BF /* tab_faq_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E215B58716002CA1BF /* tab_faq_unselected_L_iPad@2x.png */; };
+		D665B7ED15B58716002CA1BF /* tab_multimedia_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E315B58716002CA1BF /* tab_multimedia_selected_L_iPad@2x.png */; };
+		D665B7EE15B58716002CA1BF /* tab_multimedia_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E415B58716002CA1BF /* tab_multimedia_unselected_L_iPad@2x.png */; };
+		D665B7EF15B58716002CA1BF /* tab_product_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E515B58716002CA1BF /* tab_product_selected_L_iPad@2x.png */; };
+		D665B7F015B58716002CA1BF /* tab_product_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E615B58716002CA1BF /* tab_product_unselected_L_iPad@2x.png */; };
+		D665B7F115B58716002CA1BF /* tab_safety_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E715B58716002CA1BF /* tab_safety_selected_L_iPad@2x.png */; };
+		D665B7F215B58716002CA1BF /* tab_safety_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E815B58716002CA1BF /* tab_safety_unselected_L_iPad@2x.png */; };
+		D665B7F315B58716002CA1BF /* tab_seat_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7E915B58716002CA1BF /* tab_seat_selected_L_iPad@2x.png */; };
+		D665B7F415B58716002CA1BF /* tab_seat_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D665B7EA15B58716002CA1BF /* tab_seat_unselected_L_iPad@2x.png */; };
+		D665B7FA15B5889E002CA1BF /* HomeView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D665B7F915B5889E002CA1BF /* HomeView_iPad.xib */; };
+		D677197E15B7D6CD00C074B5 /* table_bg_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D677197C15B7D6CD00C074B5 /* table_bg_L_ipad.png */; };
+		D677197F15B7D6CD00C074B5 /* table_bg_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D677197D15B7D6CD00C074B5 /* table_bg_L_ipad@2x.png */; };
+		D677198215B7D88300C074B5 /* header_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D677198015B7D88300C074B5 /* header_L_ipad.png */; };
+		D677198315B7D88300C074B5 /* header_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D677198115B7D88300C074B5 /* header_L_ipad@2x.png */; };
+		D677198515B7E53600C074B5 /* webSite_btn_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D677198415B7E53600C074B5 /* webSite_btn_L_ipad@2x.png */; };
+		D677198715B7E53E00C074B5 /* webSite_btn_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D677198615B7E53E00C074B5 /* webSite_btn_L_ipad.png */; };
+		D677198E15B80B5100C074B5 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D677198D15B80B5100C074B5 /* UIColor+Additions.m */; };
+		D677BE2B15B8478000E88775 /* DetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D677BE2A15B8478000E88775 /* DetailInfoViewController.m */; };
+		D677BE2E15B8479300E88775 /* DetailInfoView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D677BE2D15B8479300E88775 /* DetailInfoView_iPad.xib */; };
+		D67A1DCA15AE9E0600E3F1C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DC915AE9E0600E3F1C1 /* UIKit.framework */; };
+		D67A1DCC15AE9E0600E3F1C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DCB15AE9E0600E3F1C1 /* Foundation.framework */; };
+		D67A1DCE15AE9E0600E3F1C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DCD15AE9E0600E3F1C1 /* CoreGraphics.framework */; };
+		D67A1DD415AE9E0600E3F1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D67A1DD215AE9E0600E3F1C1 /* InfoPlist.strings */; };
+		D67A1DD615AE9E0600E3F1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1DD515AE9E0600E3F1C1 /* main.m */; };
+		D67A1DE215AE9E0600E3F1C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DE115AE9E0600E3F1C1 /* SenTestingKit.framework */; };
+		D67A1DE315AE9E0600E3F1C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DC915AE9E0600E3F1C1 /* UIKit.framework */; };
+		D67A1DE415AE9E0600E3F1C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A1DCB15AE9E0600E3F1C1 /* Foundation.framework */; };
+		D67A1DEC15AE9E0600E3F1C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D67A1DEA15AE9E0600E3F1C1 /* InfoPlist.strings */; };
+		D67A1DEF15AE9E0600E3F1C1 /* CarSeatInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1DEE15AE9E0600E3F1C1 /* CarSeatInfoTests.m */; };
+		D67A1DFD15AEA15000E3F1C1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1DFC15AEA15000E3F1C1 /* HomeViewController.m */; };
+		D67A1E0A15AEAE8100E3F1C1 /* SeatCheckerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1E0915AEAE8100E3F1C1 /* SeatCheckerViewController.m */; };
+		D67A1E0C15AEAE9B00E3F1C1 /* SeatCheckerView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A1E0B15AEAE9B00E3F1C1 /* SeatCheckerView_iPad.xib */; };
+		D67A1E0F15AEAECB00E3F1C1 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1E0E15AEAECB00E3F1C1 /* InformationViewController.m */; };
+		D67A1E1115AEAED800E3F1C1 /* InformationView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A1E1015AEAED800E3F1C1 /* InformationView_iPad.xib */; };
+		D67A1E1415AEAEF800E3F1C1 /* FAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1E1315AEAEF800E3F1C1 /* FAQViewController.m */; };
+		D67A1E1615AEAF0600E3F1C1 /* FAQView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A1E1515AEAF0600E3F1C1 /* FAQView_iPad.xib */; };
+		D67A1E1915AEAF3100E3F1C1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A1E1815AEAF3000E3F1C1 /* AboutViewController.m */; };
+		D67A1E1B15AEAF4400E3F1C1 /* AboutView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A1E1A15AEAF4400E3F1C1 /* AboutView_iPad.xib */; };
+		D67A33D615B52EC3003CD142 /* SeatCheckerImageGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A33D515B52EC3003CD142 /* SeatCheckerImageGalleryViewController.m */; };
+		D67A33D815B52ED5003CD142 /* SeatCheckerImageGalleryView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A33D715B52ED5003CD142 /* SeatCheckerImageGalleryView_iPad.xib */; };
+		D67A478215B6C6670054C8CD /* AnimateViews.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A478115B6C6670054C8CD /* AnimateViews.m */; };
+		D67A478515B6C9730054C8CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67A478415B6C9730054C8CD /* QuartzCore.framework */; };
+		D67A47C015B6F89A0054C8CD /* arrow_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47B715B6F89A0054C8CD /* arrow_L_ipad.png */; };
+		D67A47C115B6F89A0054C8CD /* bg_white_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47B815B6F89A0054C8CD /* bg_white_L_ipad.png */; };
+		D67A47C215B6F89A0054C8CD /* btn_blank_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47B915B6F89A0054C8CD /* btn_blank_L_ipad.png */; };
+		D67A47C315B6F89A0054C8CD /* close_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47BA15B6F89A0054C8CD /* close_L_ipad.png */; };
+		D67A47C715B6F89A0054C8CD /* table_cell_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47BE15B6F89A0054C8CD /* table_cell_L_ipad.png */; };
+		D67A47C815B6F89A0054C8CD /* trans_L_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47BF15B6F89A0054C8CD /* trans_L_ipad.png */; };
+		D67A47D215B6F8A50054C8CD /* arrow_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47C915B6F8A50054C8CD /* arrow_L_ipad@2x.png */; };
+		D67A47D315B6F8A50054C8CD /* bg_white_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47CA15B6F8A50054C8CD /* bg_white_L_ipad@2x.png */; };
+		D67A47D415B6F8A50054C8CD /* btn_blank_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47CB15B6F8A50054C8CD /* btn_blank_L_ipad@2x.png */; };
+		D67A47D515B6F8A50054C8CD /* close_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47CC15B6F8A50054C8CD /* close_L_ipad@2x.png */; };
+		D67A47D915B6F8A50054C8CD /* table_cell_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47D015B6F8A50054C8CD /* table_cell_L_ipad@2x.png */; };
+		D67A47DA15B6F8A50054C8CD /* trans_L_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A47D115B6F8A50054C8CD /* trans_L_ipad@2x.png */; };
+		D67A78B815B417CC00892781 /* backgroundImg.png in Resources */ = {isa = PBXBuildFile; fileRef = D67A78B715B417CB00892781 /* backgroundImg.png */; };
+		D67A78C515B42EF000892781 /* MultiMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A78C415B42EF000892781 /* MultiMediaViewController.m */; };
+		D67A78C715B42F0500892781 /* MultiMediaView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67A78C615B42F0500892781 /* MultiMediaView_iPad.xib */; };
+		D67B9E3615B941C5000537B3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D67B9E2F15B941C5000537B3 /* ProductCell.m */; };
+		D67B9E3715B941C5000537B3 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67B9E3015B941C5000537B3 /* ProductCell.xib */; };
+		D67B9E3815B941C5000537B3 /* ProductCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67B9E3215B941C5000537B3 /* ProductCellHeaderView.m */; };
+		D67B9E3915B941C5000537B3 /* ProductInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D67B9E3415B941C5000537B3 /* ProductInfoView.m */; };
+		D67B9E3A15B941C5000537B3 /* ProductInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D67B9E3515B941C5000537B3 /* ProductInfoView.xib */; };
+		D67C1DDC15BD13A600C64BBB /* CObjectTranscoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DB915BD13A600C64BBB /* CObjectTranscoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DDD15BD13A600C64BBB /* CSqliteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DBB15BD13A600C64BBB /* CSqliteDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DDE15BD13A600C64BBB /* CSqliteDatabase_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DBD15BD13A600C64BBB /* CSqliteDatabase_Extensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DDF15BD13A600C64BBB /* CSqliteDatabase_Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DBF15BD13A600C64BBB /* CSqliteDatabase_Functions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE015BD13A600C64BBB /* CSqliteEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DC115BD13A600C64BBB /* CSqliteEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE115BD13A600C64BBB /* CSqliteStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DC315BD13A600C64BBB /* CSqliteStatement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE215BD13A600C64BBB /* DBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DC515BD13A600C64BBB /* DBFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE315BD13A600C64BBB /* CSqliteDatabase_Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DC815BD13A600C64BBB /* CSqliteDatabase_Deprecated.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE415BD13A600C64BBB /* CPersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DCB15BD13A600C64BBB /* CPersistentObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE515BD13A600C64BBB /* CPersistentObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DCD15BD13A600C64BBB /* CPersistentObjectManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE615BD13A600C64BBB /* CRandomAccessTemporaryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DCF15BD13A600C64BBB /* CRandomAccessTemporaryTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE715BD13A600C64BBB /* NSArray_SqlExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DD215BD13A600C64BBB /* NSArray_SqlExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE815BD13A600C64BBB /* NSData_SqlExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DD415BD13A600C64BBB /* NSData_SqlExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DE915BD13A600C64BBB /* NSDate_SqlExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DD615BD13A600C64BBB /* NSDate_SqlExtension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DEA15BD13A600C64BBB /* NSDictionary_SqlExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DD815BD13A600C64BBB /* NSDictionary_SqlExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DEB15BD13A600C64BBB /* NSString_SqlExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DDA15BD13A600C64BBB /* NSString_SqlExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D67C1DED15BD13F400C64BBB /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C1DEC15BD13F400C64BBB /* libsqlite3.0.dylib */; };
+		D67C1DEF15BD14E400C64BBB /* CGCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = D67C1DB515BD0F1200C64BBB /* CGCommon.m */; };
+		D67C1DF115BD156A00C64BBB /* Car_seat.db in Resources */ = {isa = PBXBuildFile; fileRef = D67C1DF015BD156A00C64BBB /* Car_seat.db */; };
+		D6827CE415B9812D001649EF /* KTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CDD15B9812D001649EF /* KTTabBar.m */; };
+		D6827CE515B9812D001649EF /* KTTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6827CDE15B9812D001649EF /* KTTabBar.xib */; };
+		D6827CE615B9812D001649EF /* KTTabBarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CE015B9812D001649EF /* KTTabBarDataSource.m */; };
+		D6827CE715B9812D001649EF /* KTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CE215B9812D001649EF /* KTTabBarItem.m */; };
+		D6827CE815B9812D001649EF /* KTTabBarItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6827CE315B9812D001649EF /* KTTabBarItem.xib */; };
+		D6827D0015B9ABE1001649EF /* ViewWithTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CEB15B9ABE1001649EF /* ViewWithTitle.m */; };
+		D6827D0115B9ABE1001649EF /* DetailedTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CEE15B9ABE1001649EF /* DetailedTableDataSource.m */; };
+		D6827D0215B9ABE1001649EF /* DetailedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CF015B9ABE1001649EF /* DetailedTableView.m */; };
+		D6827D0315B9ABE1001649EF /* FAQ.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CF215B9ABE1001649EF /* FAQ.m */; };
+		D6827D0415B9ABE1001649EF /* black_arrow_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF415B9ABE1001649EF /* black_arrow_ipad.png */; };
+		D6827D0515B9ABE1001649EF /* black_arrow_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF515B9ABE1001649EF /* black_arrow_ipad@2x.png */; };
+		D6827D0615B9ABE1001649EF /* down_arrow_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF615B9ABE1001649EF /* down_arrow_ipad.png */; };
+		D6827D0715B9ABE1001649EF /* down_arrow_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF715B9ABE1001649EF /* down_arrow_ipad@2x.png */; };
+		D6827D0815B9ABE1001649EF /* hand_selected_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF815B9ABE1001649EF /* hand_selected_ipad.png */; };
+		D6827D0915B9ABE1001649EF /* hand_selected_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CF915B9ABE1001649EF /* hand_selected_ipad@2x.png */; };
+		D6827D0A15B9ABE1001649EF /* hand_unselected_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CFA15B9ABE1001649EF /* hand_unselected_ipad.png */; };
+		D6827D0B15B9ABE1001649EF /* hand_unselected_ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6827CFB15B9ABE1001649EF /* hand_unselected_ipad@2x.png */; };
+		D6827D0C15B9ABE1001649EF /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CFD15B9ABE1001649EF /* SectionHeaderView.m */; };
+		D6827D0D15B9ABE1001649EF /* SectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827CFF15B9ABE1001649EF /* SectionInfo.m */; };
+		D6AA374015B4419600BF3712 /* search_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AA373F15B4419600BF3712 /* search_bar.png */; };
+		D6AA374B15B445BE00BF3712 /* btn_year_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AA374915B445B900BF3712 /* btn_year_selected_L_iPad.png */; };
+		D6AA374C15B445BE00BF3712 /* btn_year_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AA374A15B445BA00BF3712 /* btn_year_unselected_L_iPad.png */; };
+		D6C348CF15B58EDF003C6528 /* btn_month_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348CD15B58EDE003C6528 /* btn_month_selected_L_iPad.png */; };
+		D6C348D015B58EDF003C6528 /* btn_month_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348CE15B58EDE003C6528 /* btn_month_unselected_L_iPad.png */; };
+		D6C348D515B58F4D003C6528 /* btn_feet_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348D115B58F4D003C6528 /* btn_feet_selected_L_iPad.png */; };
+		D6C348D615B58F4D003C6528 /* btn_feet_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348D215B58F4D003C6528 /* btn_feet_unselected_L_iPad.png */; };
+		D6C348D715B58F4D003C6528 /* btn_inches_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348D315B58F4D003C6528 /* btn_inches_selected_L_iPad.png */; };
+		D6C348D815B58F4D003C6528 /* btn_inches_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348D415B58F4D003C6528 /* btn_inches_unselected_L_iPad.png */; };
+		D6C348DB15B59183003C6528 /* btn_Product_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348D915B59183003C6528 /* btn_Product_selected_L_iPad.png */; };
+		D6C348DC15B59183003C6528 /* btn_Product_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348DA15B59183003C6528 /* btn_Product_unselected_L_iPad.png */; };
+		D6C348E715B59255003C6528 /* tab_faq_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348DD15B59252003C6528 /* tab_faq_selected_L_iPad.png */; };
+		D6C348E815B59255003C6528 /* tab_faq_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348DE15B59252003C6528 /* tab_faq_unselected_L_iPad.png */; };
+		D6C348E915B59255003C6528 /* tab_multimedia_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348DF15B59253003C6528 /* tab_multimedia_selected_L_iPad.png */; };
+		D6C348EA15B59255003C6528 /* tab_multimedia_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E015B59253003C6528 /* tab_multimedia_unselected_L_iPad.png */; };
+		D6C348EB15B59255003C6528 /* tab_product_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E115B59253003C6528 /* tab_product_selected_L_iPad.png */; };
+		D6C348EC15B59255003C6528 /* tab_product_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E215B59254003C6528 /* tab_product_unselected_L_iPad.png */; };
+		D6C348ED15B59255003C6528 /* tab_safety_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E315B59254003C6528 /* tab_safety_selected_L_iPad.png */; };
+		D6C348EE15B59255003C6528 /* tab_safety_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E415B59254003C6528 /* tab_safety_unselected_L_iPad.png */; };
+		D6C348EF15B59255003C6528 /* tab_seat_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E515B59255003C6528 /* tab_seat_selected_L_iPad.png */; };
+		D6C348F015B59255003C6528 /* tab_seat_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348E615B59255003C6528 /* tab_seat_unselected_L_iPad.png */; };
+		D6C348F315B5956E003C6528 /* tab_about_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348F115B5956C003C6528 /* tab_about_selected_L_iPad.png */; };
+		D6C348F415B5956E003C6528 /* tab_about_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348F215B5956D003C6528 /* tab_about_unselected_L_iPad.png */; };
+		D6C348F715B595A2003C6528 /* tab_about_selected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348F515B595A0003C6528 /* tab_about_selected_L_iPad@2x.png */; };
+		D6C348F815B595A2003C6528 /* tab_about_unselected_L_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C348F615B595A1003C6528 /* tab_about_unselected_L_iPad@2x.png */; };
+		D6E11BFD15B547C8004892A0 /* ProductGuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E11BFC15B547C8004892A0 /* ProductGuidViewController.m */; };
+		D6E11BFF15B547D9004892A0 /* ProductGuidView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E11BFE15B547D9004892A0 /* ProductGuidView_iPad.xib */; };
+		D6E11C0215B54C4A004892A0 /* or_img_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E11C0115B54C4A004892A0 /* or_img_L_iPad.png */; };
+		D6E5575515B0398F008CFBA0 /* homeBG.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5575415B0398F008CFBA0 /* homeBG.png */; };
+		D6E5575D15B04CE5008CFBA0 /* topBarBG_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5575C15B04CE5008CFBA0 /* topBarBG_L_iPad.png */; };
+		D6E5575F15B04D8B008CFBA0 /* findCarSeat_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5575E15B04D8B008CFBA0 /* findCarSeat_L_iPad.png */; };
+		D6E5576115B0510A008CFBA0 /* HomeTitle_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5576015B0510A008CFBA0 /* HomeTitle_L_iPad.png */; };
+		D6E5577415B05BB3008CFBA0 /* btn_special_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577215B05BB1008CFBA0 /* btn_special_selected_L_iPad.png */; };
+		D6E5577515B05BB3008CFBA0 /* btn_special_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577315B05BB2008CFBA0 /* btn_special_unselected_L_iPad.png */; };
+		D6E5578215B07573008CFBA0 /* btn_about_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577C15B0756F008CFBA0 /* btn_about_selected_L_iPad.png */; };
+		D6E5578315B07573008CFBA0 /* btn_about_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577D15B07570008CFBA0 /* btn_about_unselected_L_iPad.png */; };
+		D6E5578415B07573008CFBA0 /* btn_check_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577E15B07570008CFBA0 /* btn_check_selected_L_iPad.png */; };
+		D6E5578515B07573008CFBA0 /* btn_check_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5577F15B07571008CFBA0 /* btn_check_unselected_L_iPad.png */; };
+		D6E5578615B07573008CFBA0 /* btn_faq_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578015B07572008CFBA0 /* btn_faq_selected_L_iPad.png */; };
+		D6E5578715B07573008CFBA0 /* btn_faq_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578115B07572008CFBA0 /* btn_faq_unselected_L_iPad.png */; };
+		D6E5578E15B07657008CFBA0 /* btn_multimedia_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578815B075CE008CFBA0 /* btn_multimedia_selected_L_iPad.png */; };
+		D6E5578F15B07657008CFBA0 /* btn_multimedia_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578915B075D3008CFBA0 /* btn_multimedia_unselected_L_iPad.png */; };
+		D6E5579215B07657008CFBA0 /* btn_safety_selected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578C15B0760C008CFBA0 /* btn_safety_selected_L_iPad.png */; };
+		D6E5579315B07657008CFBA0 /* btn_safety_unselected_L_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E5578D15B07632008CFBA0 /* btn_safety_unselected_L_iPad.png */; };
+		D6EF6D8B15B97CCF00EA48A1 /* Car_seat.db in Resources */ = {isa = PBXBuildFile; fileRef = D6EF6D8A15B97CCF00EA48A1 /* Car_seat.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67A1DE515AE9E0600E3F1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67A1DBC15AE9E0600E3F1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67A1DC415AE9E0600E3F1C1;
+			remoteInfo = CarSeatInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D63B5B0E15B81FDB0037EB88 /* ProductInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfo.h; sourceTree = "<group>"; };
+		D63B5B0F15B81FDB0037EB88 /* ProductInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfo.m; sourceTree = "<group>"; };
+		D63B5B2115B8206D0037EB88 /* CGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCommon.h; sourceTree = "<group>"; };
+		D63B5B2415B820D60037EB88 /* btn_back_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back_L_ipad.png; sourceTree = "<group>"; };
+		D63B5B2515B820D60037EB88 /* btn_dropdown_selected_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dropdown_selected_L_ipad.png; sourceTree = "<group>"; };
+		D63B5B2615B820D60037EB88 /* btn_home_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_home_L_ipad.png; sourceTree = "<group>"; };
+		D63B5B2A15B820F50037EB88 /* both_nonselected_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = both_nonselected_L_ipad.png; sourceTree = "<group>"; };
+		D63B5B2B15B820F50037EB88 /* btn_dropdown_unselected_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_dropdown_unselected_L_ipad.png; sourceTree = "<group>"; };
+		D63B5B3315B821580037EB88 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D63B5B3415B821580037EB88 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D665B7E115B58716002CA1BF /* tab_faq_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faq_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E215B58716002CA1BF /* tab_faq_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_faq_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E315B58716002CA1BF /* tab_multimedia_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_multimedia_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E415B58716002CA1BF /* tab_multimedia_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_multimedia_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E515B58716002CA1BF /* tab_product_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_product_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E615B58716002CA1BF /* tab_product_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_product_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E715B58716002CA1BF /* tab_safety_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_safety_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E815B58716002CA1BF /* tab_safety_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_safety_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7E915B58716002CA1BF /* tab_seat_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_seat_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7EA15B58716002CA1BF /* tab_seat_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_seat_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D665B7F915B5889E002CA1BF /* HomeView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView_iPad.xib; sourceTree = "<group>"; };
+		D677197C15B7D6CD00C074B5 /* table_bg_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_bg_L_ipad.png; sourceTree = "<group>"; };
+		D677197D15B7D6CD00C074B5 /* table_bg_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table_bg_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D677198015B7D88300C074B5 /* header_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_L_ipad.png; sourceTree = "<group>"; };
+		D677198115B7D88300C074B5 /* header_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D677198415B7E53600C074B5 /* webSite_btn_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webSite_btn_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D677198615B7E53E00C074B5 /* webSite_btn_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webSite_btn_L_ipad.png; sourceTree = "<group>"; };
+		D677198C15B80B5000C074B5 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "CarSeatInfo/UIColor+Additions.h"; sourceTree = "<group>"; };
+		D677198D15B80B5100C074B5 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Additions.m"; path = "CarSeatInfo/UIColor+Additions.m"; sourceTree = "<group>"; };
+		D677BE2915B8478000E88775 /* DetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInfoViewController.h; sourceTree = "<group>"; };
+		D677BE2A15B8478000E88775 /* DetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInfoViewController.m; sourceTree = "<group>"; };
+		D677BE2D15B8479300E88775 /* DetailInfoView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailInfoView_iPad.xib; sourceTree = "<group>"; };
+		D67A1DC515AE9E0600E3F1C1 /* CarSeatInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSeatInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67A1DC915AE9E0600E3F1C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D67A1DCB15AE9E0600E3F1C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D67A1DCD15AE9E0600E3F1C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D67A1DD115AE9E0600E3F1C1 /* CarSeatInfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarSeatInfo-Info.plist"; sourceTree = "<group>"; };
+		D67A1DD315AE9E0600E3F1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D67A1DD515AE9E0600E3F1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D67A1DD715AE9E0600E3F1C1 /* CarSeatInfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarSeatInfo-Prefix.pch"; sourceTree = "<group>"; };
+		D67A1DE015AE9E0600E3F1C1 /* CarSeatInfoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSeatInfoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67A1DE115AE9E0600E3F1C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D67A1DE915AE9E0600E3F1C1 /* CarSeatInfoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarSeatInfoTests-Info.plist"; sourceTree = "<group>"; };
+		D67A1DEB15AE9E0600E3F1C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D67A1DED15AE9E0600E3F1C1 /* CarSeatInfoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarSeatInfoTests.h; sourceTree = "<group>"; };
+		D67A1DEE15AE9E0600E3F1C1 /* CarSeatInfoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSeatInfoTests.m; sourceTree = "<group>"; };
+		D67A1DFB15AEA15000E3F1C1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D67A1DFC15AEA15000E3F1C1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D67A1E0815AEAE8100E3F1C1 /* SeatCheckerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatCheckerViewController.h; sourceTree = "<group>"; };
+		D67A1E0915AEAE8100E3F1C1 /* SeatCheckerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatCheckerViewController.m; sourceTree = "<group>"; };
+		D67A1E0B15AEAE9B00E3F1C1 /* SeatCheckerView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeatCheckerView_iPad.xib; sourceTree = "<group>"; };
+		D67A1E0D15AEAECB00E3F1C1 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		D67A1E0E15AEAECB00E3F1C1 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		D67A1E1015AEAED800E3F1C1 /* InformationView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationView_iPad.xib; sourceTree = "<group>"; };
+		D67A1E1215AEAEF800E3F1C1 /* FAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQViewController.h; sourceTree = "<group>"; };
+		D67A1E1315AEAEF800E3F1C1 /* FAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQViewController.m; sourceTree = "<group>"; };
+		D67A1E1515AEAF0600E3F1C1 /* FAQView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FAQView_iPad.xib; sourceTree = "<group>"; };
+		D67A1E1715AEAF3000E3F1C1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		D67A1E1815AEAF3000E3F1C1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		D67A1E1A15AEAF4400E3F1C1 /* AboutView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView_iPad.xib; sourceTree = "<group>"; };
+		D67A33D415B52EC3003CD142 /* SeatCheckerImageGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatCheckerImageGalleryViewController.h; sourceTree = "<group>"; };
+		D67A33D515B52EC3003CD142 /* SeatCheckerImageGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatCheckerImageGalleryViewController.m; sourceTree = "<group>"; };
+		D67A33D715B52ED5003CD142 /* SeatCheckerImageGalleryView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeatCheckerImageGalleryView_iPad.xib; sourceTree = "<group>"; };
+		D67A478015B6C6670054C8CD /* AnimateViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViews.h; sourceTree = "<group>"; };
+		D67A478115B6C6670054C8CD /* AnimateViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViews.m; sourceTree = "<group>"; };
+		D67A478415B6C9730054C8CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D67A47B715B6F89A0054C8CD /* arrow_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_L_ipad.png; sourceTree = "<group>"; };
+		D67A47B815B6F89A0054C8CD /* bg_white_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_white_L_ipad.png; sourceTree = "<group>"; };
+		D67A47B915B6F89A0054C8CD /* btn_blank_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_blank_L_ipad.png; sourceTree = "<group>"; };
+		D67A47BA15B6F89A0054C8CD /* close_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_L_ipad.png; sourceTree = "<group>"; };
+		D67A47BE15B6F89A0054C8CD /* table_cell_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_cell_L_ipad.png; sourceTree = "<group>"; };
+		D67A47BF15B6F89A0054C8CD /* trans_L_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trans_L_ipad.png; sourceTree = "<group>"; };
+		D67A47C915B6F8A50054C8CD /* arrow_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A47CA15B6F8A50054C8CD /* bg_white_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_white_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A47CB15B6F8A50054C8CD /* btn_blank_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_blank_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A47CC15B6F8A50054C8CD /* close_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A47D015B6F8A50054C8CD /* table_cell_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table_cell_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A47D115B6F8A50054C8CD /* trans_L_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trans_L_ipad@2x.png"; sourceTree = "<group>"; };
+		D67A78B715B417CB00892781 /* backgroundImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundImg.png; sourceTree = "<group>"; };
+		D67A78C315B42EEF00892781 /* MultiMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiMediaViewController.h; sourceTree = "<group>"; };
+		D67A78C415B42EF000892781 /* MultiMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiMediaViewController.m; sourceTree = "<group>"; };
+		D67A78C615B42F0500892781 /* MultiMediaView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiMediaView_iPad.xib; sourceTree = "<group>"; };
+		D67B9E2E15B941C5000537B3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		D67B9E2F15B941C5000537B3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		D67B9E3015B941C5000537B3 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		D67B9E3115B941C5000537B3 /* ProductCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCellHeaderView.h; sourceTree = "<group>"; };
+		D67B9E3215B941C5000537B3 /* ProductCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCellHeaderView.m; sourceTree = "<group>"; };
+		D67B9E3315B941C5000537B3 /* ProductInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductInfoView.h; sourceTree = "<group>"; };
+		D67B9E3415B941C5000537B3 /* ProductInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductInfoView.m; sourceTree = "<group>"; };
+		D67B9E3515B941C5000537B3 /* ProductInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductInfoView.xib; sourceTree = "<group>"; };
+		D67C1DB515BD0F1200C64BBB /* CGCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCommon.m; sourceTree = "<group>"; };
+		D67C1DB815BD13A600C64BBB /* CObjectTranscoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CObjectTranscoder.h; sourceTree = "<group>"; };
+		D67C1DB915BD13A600C64BBB /* CObjectTranscoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CObjectTranscoder.m; sourceTree = "<group>"; };
+		D67C1DBA15BD13A600C64BBB /* CSqliteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteDatabase.h; sourceTree = "<group>"; };
+		D67C1DBB15BD13A600C64BBB /* CSqliteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteDatabase.m; sourceTree = "<group>"; };
+		D67C1DBC15BD13A600C64BBB /* CSqliteDatabase_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteDatabase_Extensions.h; sourceTree = "<group>"; };
+		D67C1DBD15BD13A600C64BBB /* CSqliteDatabase_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteDatabase_Extensions.m; sourceTree = "<group>"; };
+		D67C1DBE15BD13A600C64BBB /* CSqliteDatabase_Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteDatabase_Functions.h; sourceTree = "<group>"; };
+		D67C1DBF15BD13A600C64BBB /* CSqliteDatabase_Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteDatabase_Functions.m; sourceTree = "<group>"; };
+		D67C1DC015BD13A600C64BBB /* CSqliteEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteEnumerator.h; sourceTree = "<group>"; };
+		D67C1DC115BD13A600C64BBB /* CSqliteEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteEnumerator.m; sourceTree = "<group>"; };
+		D67C1DC215BD13A600C64BBB /* CSqliteStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteStatement.h; sourceTree = "<group>"; };
+		D67C1DC315BD13A600C64BBB /* CSqliteStatement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteStatement.m; sourceTree = "<group>"; };
+		D67C1DC415BD13A600C64BBB /* DBFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFile.h; sourceTree = "<group>"; };
+		D67C1DC515BD13A600C64BBB /* DBFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFile.m; sourceTree = "<group>"; };
+		D67C1DC715BD13A600C64BBB /* CSqliteDatabase_Deprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqliteDatabase_Deprecated.h; sourceTree = "<group>"; };
+		D67C1DC815BD13A600C64BBB /* CSqliteDatabase_Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSqliteDatabase_Deprecated.m; sourceTree = "<group>"; };
+		D67C1DCA15BD13A600C64BBB /* CPersistentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPersistentObject.h; sourceTree = "<group>"; };
+		D67C1DCB15BD13A600C64BBB /* CPersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPersistentObject.m; sourceTree = "<group>"; };
+		D67C1DCC15BD13A600C64BBB /* CPersistentObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPersistentObjectManager.h; sourceTree = "<group>"; };
+		D67C1DCD15BD13A600C64BBB /* CPersistentObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPersistentObjectManager.m; sourceTree = "<group>"; };
+		D67C1DCE15BD13A600C64BBB /* CRandomAccessTemporaryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRandomAccessTemporaryTable.h; sourceTree = "<group>"; };
+		D67C1DCF15BD13A600C64BBB /* CRandomAccessTemporaryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRandomAccessTemporaryTable.m; sourceTree = "<group>"; };
+		D67C1DD115BD13A600C64BBB /* NSArray_SqlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_SqlExtensions.h; sourceTree = "<group>"; };
+		D67C1DD215BD13A600C64BBB /* NSArray_SqlExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_SqlExtensions.m; sourceTree = "<group>"; };
+		D67C1DD315BD13A600C64BBB /* NSData_SqlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData_SqlExtensions.h; sourceTree = "<group>"; };
+		D67C1DD415BD13A600C64BBB /* NSData_SqlExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_SqlExtensions.m; sourceTree = "<group>"; };
+		D67C1DD515BD13A600C64BBB /* NSDate_SqlExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDate_SqlExtension.h; sourceTree = "<group>"; };
+		D67C1DD615BD13A600C64BBB /* NSDate_SqlExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_SqlExtension.m; sourceTree = "<group>"; };
+		D67C1DD715BD13A600C64BBB /* NSDictionary_SqlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_SqlExtensions.h; sourceTree = "<group>"; };
+		D67C1DD815BD13A600C64BBB /* NSDictionary_SqlExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_SqlExtensions.m; sourceTree = "<group>"; };
+		D67C1DD915BD13A600C64BBB /* NSString_SqlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_SqlExtensions.h; sourceTree = "<group>"; };
+		D67C1DDA15BD13A600C64BBB /* NSString_SqlExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_SqlExtensions.m; sourceTree = "<group>"; };
+		D67C1DDB15BD13A600C64BBB /* TouchSQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchSQL.h; sourceTree = "<group>"; };
+		D67C1DEC15BD13F400C64BBB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D67C1DF015BD156A00C64BBB /* Car_seat.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Car_seat.db; sourceTree = "<group>"; };
+		D6827CDC15B9812D001649EF /* KTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBar.h; sourceTree = "<group>"; };
+		D6827CDD15B9812D001649EF /* KTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBar.m; sourceTree = "<group>"; };
+		D6827CDE15B9812D001649EF /* KTTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTTabBar.xib; sourceTree = "<group>"; };
+		D6827CDF15B9812D001649EF /* KTTabBarDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBarDataSource.h; sourceTree = "<group>"; };
+		D6827CE015B9812D001649EF /* KTTabBarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBarDataSource.m; sourceTree = "<group>"; };
+		D6827CE115B9812D001649EF /* KTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTabBarItem.h; sourceTree = "<group>"; };
+		D6827CE215B9812D001649EF /* KTTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTabBarItem.m; sourceTree = "<group>"; };
+		D6827CE315B9812D001649EF /* KTTabBarItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTTabBarItem.xib; sourceTree = "<group>"; };
+		D6827CEA15B9ABE1001649EF /* ViewWithTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWithTitle.h; sourceTree = "<group>"; };
+		D6827CEB15B9ABE1001649EF /* ViewWithTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWithTitle.m; sourceTree = "<group>"; };
+		D6827CED15B9ABE1001649EF /* DetailedTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedTableDataSource.h; sourceTree = "<group>"; };
+		D6827CEE15B9ABE1001649EF /* DetailedTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedTableDataSource.m; sourceTree = "<group>"; };
+		D6827CEF15B9ABE1001649EF /* DetailedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedTableView.h; sourceTree = "<group>"; };
+		D6827CF015B9ABE1001649EF /* DetailedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedTableView.m; sourceTree = "<group>"; };
+		D6827CF115B9ABE1001649EF /* FAQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQ.h; sourceTree = "<group>"; };
+		D6827CF215B9ABE1001649EF /* FAQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQ.m; sourceTree = "<group>"; };
+		D6827CF415B9ABE1001649EF /* black_arrow_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_arrow_ipad.png; sourceTree = "<group>"; };
+		D6827CF515B9ABE1001649EF /* black_arrow_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_arrow_ipad@2x.png"; sourceTree = "<group>"; };
+		D6827CF615B9ABE1001649EF /* down_arrow_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_arrow_ipad.png; sourceTree = "<group>"; };
+		D6827CF715B9ABE1001649EF /* down_arrow_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow_ipad@2x.png"; sourceTree = "<group>"; };
+		D6827CF815B9ABE1001649EF /* hand_selected_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand_selected_ipad.png; sourceTree = "<group>"; };
+		D6827CF915B9ABE1001649EF /* hand_selected_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand_selected_ipad@2x.png"; sourceTree = "<group>"; };
+		D6827CFA15B9ABE1001649EF /* hand_unselected_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand_unselected_ipad.png; sourceTree = "<group>"; };
+		D6827CFB15B9ABE1001649EF /* hand_unselected_ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand_unselected_ipad@2x.png"; sourceTree = "<group>"; };
+		D6827CFC15B9ABE1001649EF /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		D6827CFD15B9ABE1001649EF /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		D6827CFE15B9ABE1001649EF /* SectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionInfo.h; sourceTree = "<group>"; };
+		D6827CFF15B9ABE1001649EF /* SectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionInfo.m; sourceTree = "<group>"; };
+		D6AA373F15B4419600BF3712 /* search_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_bar.png; sourceTree = "<group>"; };
+		D6AA374915B445B900BF3712 /* btn_year_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_year_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6AA374A15B445BA00BF3712 /* btn_year_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_year_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348CD15B58EDE003C6528 /* btn_month_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_month_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348CE15B58EDE003C6528 /* btn_month_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_month_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348D115B58F4D003C6528 /* btn_feet_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_feet_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348D215B58F4D003C6528 /* btn_feet_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_feet_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348D315B58F4D003C6528 /* btn_inches_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_inches_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348D415B58F4D003C6528 /* btn_inches_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_inches_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348D915B59183003C6528 /* btn_Product_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_Product_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348DA15B59183003C6528 /* btn_Product_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_Product_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348DD15B59252003C6528 /* tab_faq_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_faq_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348DE15B59252003C6528 /* tab_faq_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_faq_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348DF15B59253003C6528 /* tab_multimedia_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_multimedia_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E015B59253003C6528 /* tab_multimedia_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_multimedia_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E115B59253003C6528 /* tab_product_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_product_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E215B59254003C6528 /* tab_product_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_product_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E315B59254003C6528 /* tab_safety_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_safety_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E415B59254003C6528 /* tab_safety_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_safety_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E515B59255003C6528 /* tab_seat_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_seat_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348E615B59255003C6528 /* tab_seat_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_seat_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348F115B5956C003C6528 /* tab_about_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_about_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348F215B5956D003C6528 /* tab_about_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_about_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6C348F515B595A0003C6528 /* tab_about_selected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_about_selected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D6C348F615B595A1003C6528 /* tab_about_unselected_L_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_about_unselected_L_iPad@2x.png"; sourceTree = "<group>"; };
+		D6E11BFB15B547C8004892A0 /* ProductGuidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductGuidViewController.h; sourceTree = "<group>"; };
+		D6E11BFC15B547C8004892A0 /* ProductGuidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductGuidViewController.m; sourceTree = "<group>"; };
+		D6E11BFE15B547D9004892A0 /* ProductGuidView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductGuidView_iPad.xib; sourceTree = "<group>"; };
+		D6E11C0115B54C4A004892A0 /* or_img_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = or_img_L_iPad.png; sourceTree = "<group>"; };
+		D6E5575415B0398F008CFBA0 /* homeBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeBG.png; sourceTree = "<group>"; };
+		D6E5575C15B04CE5008CFBA0 /* topBarBG_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBarBG_L_iPad.png; sourceTree = "<group>"; };
+		D6E5575E15B04D8B008CFBA0 /* findCarSeat_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findCarSeat_L_iPad.png; sourceTree = "<group>"; };
+		D6E5576015B0510A008CFBA0 /* HomeTitle_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeTitle_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577215B05BB1008CFBA0 /* btn_special_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_special_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577315B05BB2008CFBA0 /* btn_special_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_special_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577C15B0756F008CFBA0 /* btn_about_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_about_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577D15B07570008CFBA0 /* btn_about_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_about_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577E15B07570008CFBA0 /* btn_check_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_check_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5577F15B07571008CFBA0 /* btn_check_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_check_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578015B07572008CFBA0 /* btn_faq_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_faq_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578115B07572008CFBA0 /* btn_faq_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_faq_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578815B075CE008CFBA0 /* btn_multimedia_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_multimedia_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578915B075D3008CFBA0 /* btn_multimedia_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_multimedia_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578C15B0760C008CFBA0 /* btn_safety_selected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_safety_selected_L_iPad.png; sourceTree = "<group>"; };
+		D6E5578D15B07632008CFBA0 /* btn_safety_unselected_L_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_safety_unselected_L_iPad.png; sourceTree = "<group>"; };
+		D6EF6D8A15B97CCF00EA48A1 /* Car_seat.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Car_seat.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67A1DC215AE9E0600E3F1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67C1DED15BD13F400C64BBB /* libsqlite3.0.dylib in Frameworks */,
+				D67A478515B6C9730054C8CD /* QuartzCore.framework in Frameworks */,
+				D67A1DCA15AE9E0600E3F1C1 /* UIKit.framework in Frameworks */,
+				D67A1DCC15AE9E0600E3F1C1 /* Foundation.framework in Frameworks */,
+				D67A1DCE15AE9E0600E3F1C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A1DDC15AE9E0600E3F1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A1DE215AE9E0600E3F1C1 /* SenTestingKit.framework in Frameworks */,
+				D67A1DE315AE9E0600E3F1C1 /* UIKit.framework in Frameworks */,
+				D67A1DE415AE9E0600E3F1C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D63B5B0D15B81FDB0037EB88 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D63B5B0E15B81FDB0037EB88 /* ProductInfo.h */,
+				D63B5B0F15B81FDB0037EB88 /* ProductInfo.m */,
+			);
+			path = ModelClasses;
+			sourceTree = "<group>";
+		};
+		D63B5B2015B8206D0037EB88 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				D63B5B2115B8206D0037EB88 /* CGCommon.h */,
+				D67C1DB515BD0F1200C64BBB /* CGCommon.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		D67A1DBA15AE9E0600E3F1C1 = {
+			isa = PBXGroup;
+			children = (
+				D67C1DEC15BD13F400C64BBB /* libsqlite3.0.dylib */,
+				D67A1DCF15AE9E0600E3F1C1 /* CarSeatInfo */,
+				D67A1DE715AE9E0600E3F1C1 /* CarSeatInfoTests */,
+				D67A1DC815AE9E0600E3F1C1 /* Frameworks */,
+				D67A1DC615AE9E0600E3F1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67A1DC615AE9E0600E3F1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67A1DC515AE9E0600E3F1C1 /* CarSeatInfo.app */,
+				D67A1DE015AE9E0600E3F1C1 /* CarSeatInfoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67A1DC815AE9E0600E3F1C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67A478415B6C9730054C8CD /* QuartzCore.framework */,
+				D67A1DC915AE9E0600E3F1C1 /* UIKit.framework */,
+				D67A1DCB15AE9E0600E3F1C1 /* Foundation.framework */,
+				D67A1DCD15AE9E0600E3F1C1 /* CoreGraphics.framework */,
+				D67A1DE115AE9E0600E3F1C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67A1DCF15AE9E0600E3F1C1 /* CarSeatInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D63B5B3315B821580037EB88 /* AppDelegate.h */,
+				D63B5B3415B821580037EB88 /* AppDelegate.m */,
+				D67A1DF815AE9E7A00E3F1C1 /* source */,
+				D67A1DD015AE9E0600E3F1C1 /* Supporting Files */,
+			);
+			path = CarSeatInfo;
+			sourceTree = "<group>";
+		};
+		D67A1DD015AE9E0600E3F1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DF015BD156A00C64BBB /* Car_seat.db */,
+				D67C1DB715BD13A600C64BBB /* SQLite */,
+				D6E5575115B027C6008CFBA0 /* images */,
+				D67A1DD115AE9E0600E3F1C1 /* CarSeatInfo-Info.plist */,
+				D67A1DD215AE9E0600E3F1C1 /* InfoPlist.strings */,
+				D67A1DD515AE9E0600E3F1C1 /* main.m */,
+				D67A1DD715AE9E0600E3F1C1 /* CarSeatInfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67A1DE715AE9E0600E3F1C1 /* CarSeatInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D67A1DED15AE9E0600E3F1C1 /* CarSeatInfoTests.h */,
+				D67A1DEE15AE9E0600E3F1C1 /* CarSeatInfoTests.m */,
+				D67A1DE815AE9E0600E3F1C1 /* Supporting Files */,
+			);
+			path = CarSeatInfoTests;
+			sourceTree = "<group>";
+		};
+		D67A1DE815AE9E0600E3F1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF6D8A15B97CCF00EA48A1 /* Car_seat.db */,
+				D67A1DE915AE9E0600E3F1C1 /* CarSeatInfoTests-Info.plist */,
+				D67A1DEA15AE9E0600E3F1C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67A1DF815AE9E7A00E3F1C1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D6827CE915B9ABE1001649EF /* CustomView */,
+				D6827CEC15B9ABE1001649EF /* DetailedTable */,
+				D67B9E2D15B941C5000537B3 /* ProductGuideViews */,
+				D63B5B2015B8206D0037EB88 /* CoreGraphics */,
+				D63B5B0D15B81FDB0037EB88 /* ModelClasses */,
+				D67A477F15B6C6670054C8CD /* Animate Views */,
+				D6E1970915AFD3E000442A06 /* KTTabBar */,
+				D67A1E6A15AF242300E3F1C1 /* Navigation Controllers */,
+				D67A1E0215AEABF600E3F1C1 /* TabBar Controllers */,
+				D677198C15B80B5000C074B5 /* UIColor+Additions.h */,
+				D677198D15B80B5100C074B5 /* UIColor+Additions.m */,
+			);
+			name = source;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D67A1E0215AEABF600E3F1C1 /* TabBar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D67A1E0815AEAE8100E3F1C1 /* SeatCheckerViewController.h */,
+				D67A1E0915AEAE8100E3F1C1 /* SeatCheckerViewController.m */,
+				D67A1E0B15AEAE9B00E3F1C1 /* SeatCheckerView_iPad.xib */,
+				D6E11BFB15B547C8004892A0 /* ProductGuidViewController.h */,
+				D6E11BFC15B547C8004892A0 /* ProductGuidViewController.m */,
+				D6E11BFE15B547D9004892A0 /* ProductGuidView_iPad.xib */,
+				D67A1E0D15AEAECB00E3F1C1 /* InformationViewController.h */,
+				D67A1E0E15AEAECB00E3F1C1 /* InformationViewController.m */,
+				D67A1E1015AEAED800E3F1C1 /* InformationView_iPad.xib */,
+				D677BE2915B8478000E88775 /* DetailInfoViewController.h */,
+				D677BE2A15B8478000E88775 /* DetailInfoViewController.m */,
+				D677BE2D15B8479300E88775 /* DetailInfoView_iPad.xib */,
+				D67A1E1215AEAEF800E3F1C1 /* FAQViewController.h */,
+				D67A1E1315AEAEF800E3F1C1 /* FAQViewController.m */,
+				D67A1E1515AEAF0600E3F1C1 /* FAQView_iPad.xib */,
+				D67A1E1715AEAF3000E3F1C1 /* AboutViewController.h */,
+				D67A1E1815AEAF3000E3F1C1 /* AboutViewController.m */,
+				D67A1E1A15AEAF4400E3F1C1 /* AboutView_iPad.xib */,
+				D67A78C315B42EEF00892781 /* MultiMediaViewController.h */,
+				D67A78C415B42EF000892781 /* MultiMediaViewController.m */,
+				D67A78C615B42F0500892781 /* MultiMediaView_iPad.xib */,
+				D67A33D415B52EC3003CD142 /* SeatCheckerImageGalleryViewController.h */,
+				D67A33D515B52EC3003CD142 /* SeatCheckerImageGalleryViewController.m */,
+				D67A33D715B52ED5003CD142 /* SeatCheckerImageGalleryView_iPad.xib */,
+			);
+			name = "TabBar Controllers";
+			sourceTree = "<group>";
+		};
+		D67A1E6A15AF242300E3F1C1 /* Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D67A1DFB15AEA15000E3F1C1 /* HomeViewController.h */,
+				D67A1DFC15AEA15000E3F1C1 /* HomeViewController.m */,
+				D665B7F915B5889E002CA1BF /* HomeView_iPad.xib */,
+			);
+			name = "Navigation Controllers";
+			sourceTree = "<group>";
+		};
+		D67A477F15B6C6670054C8CD /* Animate Views */ = {
+			isa = PBXGroup;
+			children = (
+				D67A478015B6C6670054C8CD /* AnimateViews.h */,
+				D67A478115B6C6670054C8CD /* AnimateViews.m */,
+			);
+			path = "Animate Views";
+			sourceTree = "<group>";
+		};
+		D67B9E2D15B941C5000537B3 /* ProductGuideViews */ = {
+			isa = PBXGroup;
+			children = (
+				D67B9E2E15B941C5000537B3 /* ProductCell.h */,
+				D67B9E2F15B941C5000537B3 /* ProductCell.m */,
+				D67B9E3015B941C5000537B3 /* ProductCell.xib */,
+				D67B9E3115B941C5000537B3 /* ProductCellHeaderView.h */,
+				D67B9E3215B941C5000537B3 /* ProductCellHeaderView.m */,
+				D67B9E3315B941C5000537B3 /* ProductInfoView.h */,
+				D67B9E3415B941C5000537B3 /* ProductInfoView.m */,
+				D67B9E3515B941C5000537B3 /* ProductInfoView.xib */,
+			);
+			path = ProductGuideViews;
+			sourceTree = "<group>";
+		};
+		D67C1DB715BD13A600C64BBB /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DB815BD13A600C64BBB /* CObjectTranscoder.h */,
+				D67C1DB915BD13A600C64BBB /* CObjectTranscoder.m */,
+				D67C1DBA15BD13A600C64BBB /* CSqliteDatabase.h */,
+				D67C1DBB15BD13A600C64BBB /* CSqliteDatabase.m */,
+				D67C1DBC15BD13A600C64BBB /* CSqliteDatabase_Extensions.h */,
+				D67C1DBD15BD13A600C64BBB /* CSqliteDatabase_Extensions.m */,
+				D67C1DBE15BD13A600C64BBB /* CSqliteDatabase_Functions.h */,
+				D67C1DBF15BD13A600C64BBB /* CSqliteDatabase_Functions.m */,
+				D67C1DC015BD13A600C64BBB /* CSqliteEnumerator.h */,
+				D67C1DC115BD13A600C64BBB /* CSqliteEnumerator.m */,
+				D67C1DC215BD13A600C64BBB /* CSqliteStatement.h */,
+				D67C1DC315BD13A600C64BBB /* CSqliteStatement.m */,
+				D67C1DC415BD13A600C64BBB /* DBFile.h */,
+				D67C1DC515BD13A600C64BBB /* DBFile.m */,
+				D67C1DC615BD13A600C64BBB /* Deprecated */,
+				D67C1DC915BD13A600C64BBB /* Experimental */,
+				D67C1DD015BD13A600C64BBB /* Support */,
+				D67C1DDB15BD13A600C64BBB /* TouchSQL.h */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		D67C1DC615BD13A600C64BBB /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DC715BD13A600C64BBB /* CSqliteDatabase_Deprecated.h */,
+				D67C1DC815BD13A600C64BBB /* CSqliteDatabase_Deprecated.m */,
+			);
+			path = Deprecated;
+			sourceTree = "<group>";
+		};
+		D67C1DC915BD13A600C64BBB /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DCA15BD13A600C64BBB /* CPersistentObject.h */,
+				D67C1DCB15BD13A600C64BBB /* CPersistentObject.m */,
+				D67C1DCC15BD13A600C64BBB /* CPersistentObjectManager.h */,
+				D67C1DCD15BD13A600C64BBB /* CPersistentObjectManager.m */,
+				D67C1DCE15BD13A600C64BBB /* CRandomAccessTemporaryTable.h */,
+				D67C1DCF15BD13A600C64BBB /* CRandomAccessTemporaryTable.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		D67C1DD015BD13A600C64BBB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D67C1DD115BD13A600C64BBB /* NSArray_SqlExtensions.h */,
+				D67C1DD215BD13A600C64BBB /* NSArray_SqlExtensions.m */,
+				D67C1DD315BD13A600C64BBB /* NSData_SqlExtensions.h */,
+				D67C1DD415BD13A600C64BBB /* NSData_SqlExtensions.m */,
+				D67C1DD515BD13A600C64BBB /* NSDate_SqlExtension.h */,
+				D67C1DD615BD13A600C64BBB /* NSDate_SqlExtension.m */,
+				D67C1DD715BD13A600C64BBB /* NSDictionary_SqlExtensions.h */,
+				D67C1DD815BD13A600C64BBB /* NSDictionary_SqlExtensions.m */,
+				D67C1DD915BD13A600C64BBB /* NSString_SqlExtensions.h */,
+				D67C1DDA15BD13A600C64BBB /* NSString_SqlExtensions.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D6827CE915B9ABE1001649EF /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D6827CEA15B9ABE1001649EF /* ViewWithTitle.h */,
+				D6827CEB15B9ABE1001649EF /* ViewWithTitle.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D6827CEC15B9ABE1001649EF /* DetailedTable */ = {
+			isa = PBXGroup;
+			children = (
+				D6827CED15B9ABE1001649EF /* DetailedTableDataSource.h */,
+				D6827CEE15B9ABE1001649EF /* DetailedTableDataSource.m */,
+				D6827CEF15B9ABE1001649EF /* DetailedTableView.h */,
+				D6827CF015B9ABE1001649EF /* DetailedTableView.m */,
+				D6827CF115B9ABE1001649EF /* FAQ.h */,
+				D6827CF215B9ABE1001649EF /* FAQ.m */,
+				D6827CF315B9ABE1001649EF /* images */,
+				D6827CFC15B9ABE1001649EF /* SectionHeaderView.h */,
+				D6827CFD15B9ABE1001649EF /* SectionHeaderView.m */,
+				D6827CFE15B9ABE1001649EF /* SectionInfo.h */,
+				D6827CFF15B9ABE1001649EF /* SectionInfo.m */,
+			);
+			path = DetailedTable;
+			sourceTree = "<group>";
+		};
+		D6827CF315B9ABE1001649EF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D6827CF415B9ABE1001649EF /* black_arrow_ipad.png */,
+				D6827CF515B9ABE1001649EF /* black_arrow_ipad@2x.png */,
+				D6827CF615B9ABE1001649EF /* down_arrow_ipad.png */,
+				D6827CF715B9ABE1001649EF /* down_arrow_ipad@2x.png */,
+				D6827CF815B9ABE1001649EF /* hand_selected_ipad.png */,
+				D6827CF915B9ABE1001649EF /* hand_selected_ipad@2x.png */,
+				D6827CFA15B9ABE1001649EF /* hand_unselected_ipad.png */,
+				D6827CFB15B9ABE1001649EF /* hand_unselected_ipad@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D6E11C0015B54A94004892A0 /* tab bar Images */ = {
+			isa = PBXGroup;
+			children = (
+				D6C348F515B595A0003C6528 /* tab_about_selected_L_iPad@2x.png */,
+				D6C348F615B595A1003C6528 /* tab_about_unselected_L_iPad@2x.png */,
+				D6C348F115B5956C003C6528 /* tab_about_selected_L_iPad.png */,
+				D6C348F215B5956D003C6528 /* tab_about_unselected_L_iPad.png */,
+				D6C348DD15B59252003C6528 /* tab_faq_selected_L_iPad.png */,
+				D6C348DE15B59252003C6528 /* tab_faq_unselected_L_iPad.png */,
+				D6C348DF15B59253003C6528 /* tab_multimedia_selected_L_iPad.png */,
+				D6C348E015B59253003C6528 /* tab_multimedia_unselected_L_iPad.png */,
+				D6C348E115B59253003C6528 /* tab_product_selected_L_iPad.png */,
+				D6C348E215B59254003C6528 /* tab_product_unselected_L_iPad.png */,
+				D6C348E315B59254003C6528 /* tab_safety_selected_L_iPad.png */,
+				D6C348E415B59254003C6528 /* tab_safety_unselected_L_iPad.png */,
+				D6C348E515B59255003C6528 /* tab_seat_selected_L_iPad.png */,
+				D6C348E615B59255003C6528 /* tab_seat_unselected_L_iPad.png */,
+				D665B7E115B58716002CA1BF /* tab_faq_selected_L_iPad@2x.png */,
+				D665B7E215B58716002CA1BF /* tab_faq_unselected_L_iPad@2x.png */,
+				D665B7E315B58716002CA1BF /* tab_multimedia_selected_L_iPad@2x.png */,
+				D665B7E415B58716002CA1BF /* tab_multimedia_unselected_L_iPad@2x.png */,
+				D665B7E515B58716002CA1BF /* tab_product_selected_L_iPad@2x.png */,
+				D665B7E615B58716002CA1BF /* tab_product_unselected_L_iPad@2x.png */,
+				D665B7E715B58716002CA1BF /* tab_safety_selected_L_iPad@2x.png */,
+				D665B7E815B58716002CA1BF /* tab_safety_unselected_L_iPad@2x.png */,
+				D665B7E915B58716002CA1BF /* tab_seat_selected_L_iPad@2x.png */,
+				D665B7EA15B58716002CA1BF /* tab_seat_unselected_L_iPad@2x.png */,
+			);
+			name = "tab bar Images";
+			sourceTree = "<group>";
+		};
+		D6E1970915AFD3E000442A06 /* KTTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D6827CDC15B9812D001649EF /* KTTabBar.h */,
+				D6827CDD15B9812D001649EF /* KTTabBar.m */,
+				D6827CDE15B9812D001649EF /* KTTabBar.xib */,
+				D6827CDF15B9812D001649EF /* KTTabBarDataSource.h */,
+				D6827CE015B9812D001649EF /* KTTabBarDataSource.m */,
+				D6827CE115B9812D001649EF /* KTTabBarItem.h */,
+				D6827CE215B9812D001649EF /* KTTabBarItem.m */,
+				D6827CE315B9812D001649EF /* KTTabBarItem.xib */,
+			);
+			path = KTTabBar;
+			sourceTree = "<group>";
+		};
+		D6E5575115B027C6008CFBA0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D6E5575A15B04CC0008CFBA0 /* iPad */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		D6E5575A15B04CC0008CFBA0 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D6E11C0015B54A94004892A0 /* tab bar Images */,
+				D6C348D115B58F4D003C6528 /* btn_feet_selected_L_iPad.png */,
+				D6C348D215B58F4D003C6528 /* btn_feet_unselected_L_iPad.png */,
+				D6C348D315B58F4D003C6528 /* btn_inches_selected_L_iPad.png */,
+				D6C348D415B58F4D003C6528 /* btn_inches_unselected_L_iPad.png */,
+				D6C348CD15B58EDE003C6528 /* btn_month_selected_L_iPad.png */,
+				D6C348CE15B58EDE003C6528 /* btn_month_unselected_L_iPad.png */,
+				D63B5B2415B820D60037EB88 /* btn_back_L_ipad.png */,
+				D63B5B2515B820D60037EB88 /* btn_dropdown_selected_L_ipad.png */,
+				D63B5B2615B820D60037EB88 /* btn_home_L_ipad.png */,
+				D63B5B2A15B820F50037EB88 /* both_nonselected_L_ipad.png */,
+				D63B5B2B15B820F50037EB88 /* btn_dropdown_unselected_L_ipad.png */,
+				D6AA374915B445B900BF3712 /* btn_year_selected_L_iPad.png */,
+				D6AA374A15B445BA00BF3712 /* btn_year_unselected_L_iPad.png */,
+				D6AA373F15B4419600BF3712 /* search_bar.png */,
+				D67A78B715B417CB00892781 /* backgroundImg.png */,
+				D6E5575415B0398F008CFBA0 /* homeBG.png */,
+				D6C348D915B59183003C6528 /* btn_Product_selected_L_iPad.png */,
+				D6C348DA15B59183003C6528 /* btn_Product_unselected_L_iPad.png */,
+				D6E5578815B075CE008CFBA0 /* btn_multimedia_selected_L_iPad.png */,
+				D6E5578915B075D3008CFBA0 /* btn_multimedia_unselected_L_iPad.png */,
+				D6E5578C15B0760C008CFBA0 /* btn_safety_selected_L_iPad.png */,
+				D6E5578D15B07632008CFBA0 /* btn_safety_unselected_L_iPad.png */,
+				D6E5577C15B0756F008CFBA0 /* btn_about_selected_L_iPad.png */,
+				D6E5577D15B07570008CFBA0 /* btn_about_unselected_L_iPad.png */,
+				D6E5577E15B07570008CFBA0 /* btn_check_selected_L_iPad.png */,
+				D6E5577F15B07571008CFBA0 /* btn_check_unselected_L_iPad.png */,
+				D6E5578015B07572008CFBA0 /* btn_faq_selected_L_iPad.png */,
+				D6E5578115B07572008CFBA0 /* btn_faq_unselected_L_iPad.png */,
+				D6E5577215B05BB1008CFBA0 /* btn_special_selected_L_iPad.png */,
+				D6E5577315B05BB2008CFBA0 /* btn_special_unselected_L_iPad.png */,
+				D6E5576015B0510A008CFBA0 /* HomeTitle_L_iPad.png */,
+				D6E5575E15B04D8B008CFBA0 /* findCarSeat_L_iPad.png */,
+				D6E5575C15B04CE5008CFBA0 /* topBarBG_L_iPad.png */,
+				D6E11C0115B54C4A004892A0 /* or_img_L_iPad.png */,
+				D67A47B715B6F89A0054C8CD /* arrow_L_ipad.png */,
+				D67A47C915B6F8A50054C8CD /* arrow_L_ipad@2x.png */,
+				D67A47B815B6F89A0054C8CD /* bg_white_L_ipad.png */,
+				D67A47CA15B6F8A50054C8CD /* bg_white_L_ipad@2x.png */,
+				D67A47B915B6F89A0054C8CD /* btn_blank_L_ipad.png */,
+				D67A47CB15B6F8A50054C8CD /* btn_blank_L_ipad@2x.png */,
+				D67A47BA15B6F89A0054C8CD /* close_L_ipad.png */,
+				D67A47CC15B6F8A50054C8CD /* close_L_ipad@2x.png */,
+				D67A47BE15B6F89A0054C8CD /* table_cell_L_ipad.png */,
+				D67A47D015B6F8A50054C8CD /* table_cell_L_ipad@2x.png */,
+				D67A47BF15B6F89A0054C8CD /* trans_L_ipad.png */,
+				D67A47D115B6F8A50054C8CD /* trans_L_ipad@2x.png */,
+				D677197C15B7D6CD00C074B5 /* table_bg_L_ipad.png */,
+				D677197D15B7D6CD00C074B5 /* table_bg_L_ipad@2x.png */,
+				D677198015B7D88300C074B5 /* header_L_ipad.png */,
+				D677198115B7D88300C074B5 /* header_L_ipad@2x.png */,
+				D677198615B7E53E00C074B5 /* webSite_btn_L_ipad.png */,
+				D677198415B7E53600C074B5 /* webSite_btn_L_ipad@2x.png */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67A1DC415AE9E0600E3F1C1 /* CarSeatInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67A1DF215AE9E0600E3F1C1 /* Build configuration list for PBXNativeTarget "CarSeatInfo" */;
+			buildPhases = (
+				D67A1DC115AE9E0600E3F1C1 /* Sources */,
+				D67A1DC215AE9E0600E3F1C1 /* Frameworks */,
+				D67A1DC315AE9E0600E3F1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSeatInfo;
+			productName = CarSeatInfo;
+			productReference = D67A1DC515AE9E0600E3F1C1 /* CarSeatInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67A1DDF15AE9E0600E3F1C1 /* CarSeatInfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67A1DF515AE9E0600E3F1C1 /* Build configuration list for PBXNativeTarget "CarSeatInfoTests" */;
+			buildPhases = (
+				D67A1DDB15AE9E0600E3F1C1 /* Sources */,
+				D67A1DDC15AE9E0600E3F1C1 /* Frameworks */,
+				D67A1DDD15AE9E0600E3F1C1 /* Resources */,
+				D67A1DDE15AE9E0600E3F1C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67A1DE615AE9E0600E3F1C1 /* PBXTargetDependency */,
+			);
+			name = CarSeatInfoTests;
+			productName = CarSeatInfoTests;
+			productReference = D67A1DE015AE9E0600E3F1C1 /* CarSeatInfoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67A1DBC15AE9E0600E3F1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D67A1DBF15AE9E0600E3F1C1 /* Build configuration list for PBXProject "CarSeatInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D67A1DBA15AE9E0600E3F1C1;
+			productRefGroup = D67A1DC615AE9E0600E3F1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67A1DC415AE9E0600E3F1C1 /* CarSeatInfo */,
+				D67A1DDF15AE9E0600E3F1C1 /* CarSeatInfoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67A1DC315AE9E0600E3F1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A1DD415AE9E0600E3F1C1 /* InfoPlist.strings in Resources */,
+				D67A1E0C15AEAE9B00E3F1C1 /* SeatCheckerView_iPad.xib in Resources */,
+				D67A1E1115AEAED800E3F1C1 /* InformationView_iPad.xib in Resources */,
+				D67A1E1615AEAF0600E3F1C1 /* FAQView_iPad.xib in Resources */,
+				D67A1E1B15AEAF4400E3F1C1 /* AboutView_iPad.xib in Resources */,
+				D6E5575515B0398F008CFBA0 /* homeBG.png in Resources */,
+				D6E5575D15B04CE5008CFBA0 /* topBarBG_L_iPad.png in Resources */,
+				D6E5575F15B04D8B008CFBA0 /* findCarSeat_L_iPad.png in Resources */,
+				D6E5576115B0510A008CFBA0 /* HomeTitle_L_iPad.png in Resources */,
+				D6E5577415B05BB3008CFBA0 /* btn_special_selected_L_iPad.png in Resources */,
+				D6E5577515B05BB3008CFBA0 /* btn_special_unselected_L_iPad.png in Resources */,
+				D6E5578215B07573008CFBA0 /* btn_about_selected_L_iPad.png in Resources */,
+				D6E5578315B07573008CFBA0 /* btn_about_unselected_L_iPad.png in Resources */,
+				D6E5578415B07573008CFBA0 /* btn_check_selected_L_iPad.png in Resources */,
+				D6E5578515B07573008CFBA0 /* btn_check_unselected_L_iPad.png in Resources */,
+				D6E5578615B07573008CFBA0 /* btn_faq_selected_L_iPad.png in Resources */,
+				D6E5578715B07573008CFBA0 /* btn_faq_unselected_L_iPad.png in Resources */,
+				D6E5578E15B07657008CFBA0 /* btn_multimedia_selected_L_iPad.png in Resources */,
+				D6E5578F15B07657008CFBA0 /* btn_multimedia_unselected_L_iPad.png in Resources */,
+				D6E5579215B07657008CFBA0 /* btn_safety_selected_L_iPad.png in Resources */,
+				D6E5579315B07657008CFBA0 /* btn_safety_unselected_L_iPad.png in Resources */,
+				D67A78B815B417CC00892781 /* backgroundImg.png in Resources */,
+				D67A78C715B42F0500892781 /* MultiMediaView_iPad.xib in Resources */,
+				D6AA374015B4419600BF3712 /* search_bar.png in Resources */,
+				D6AA374B15B445BE00BF3712 /* btn_year_selected_L_iPad.png in Resources */,
+				D6AA374C15B445BE00BF3712 /* btn_year_unselected_L_iPad.png in Resources */,
+				D67A33D815B52ED5003CD142 /* SeatCheckerImageGalleryView_iPad.xib in Resources */,
+				D6E11BFF15B547D9004892A0 /* ProductGuidView_iPad.xib in Resources */,
+				D6E11C0215B54C4A004892A0 /* or_img_L_iPad.png in Resources */,
+				D665B7EB15B58716002CA1BF /* tab_faq_selected_L_iPad@2x.png in Resources */,
+				D665B7EC15B58716002CA1BF /* tab_faq_unselected_L_iPad@2x.png in Resources */,
+				D665B7ED15B58716002CA1BF /* tab_multimedia_selected_L_iPad@2x.png in Resources */,
+				D665B7EE15B58716002CA1BF /* tab_multimedia_unselected_L_iPad@2x.png in Resources */,
+				D665B7EF15B58716002CA1BF /* tab_product_selected_L_iPad@2x.png in Resources */,
+				D665B7F015B58716002CA1BF /* tab_product_unselected_L_iPad@2x.png in Resources */,
+				D665B7F115B58716002CA1BF /* tab_safety_selected_L_iPad@2x.png in Resources */,
+				D665B7F215B58716002CA1BF /* tab_safety_unselected_L_iPad@2x.png in Resources */,
+				D665B7F315B58716002CA1BF /* tab_seat_selected_L_iPad@2x.png in Resources */,
+				D665B7F415B58716002CA1BF /* tab_seat_unselected_L_iPad@2x.png in Resources */,
+				D665B7FA15B5889E002CA1BF /* HomeView_iPad.xib in Resources */,
+				D6C348CF15B58EDF003C6528 /* btn_month_selected_L_iPad.png in Resources */,
+				D6C348D015B58EDF003C6528 /* btn_month_unselected_L_iPad.png in Resources */,
+				D6C348D515B58F4D003C6528 /* btn_feet_selected_L_iPad.png in Resources */,
+				D6C348D615B58F4D003C6528 /* btn_feet_unselected_L_iPad.png in Resources */,
+				D6C348D715B58F4D003C6528 /* btn_inches_selected_L_iPad.png in Resources */,
+				D6C348D815B58F4D003C6528 /* btn_inches_unselected_L_iPad.png in Resources */,
+				D6C348DB15B59183003C6528 /* btn_Product_selected_L_iPad.png in Resources */,
+				D6C348DC15B59183003C6528 /* btn_Product_unselected_L_iPad.png in Resources */,
+				D6C348E715B59255003C6528 /* tab_faq_selected_L_iPad.png in Resources */,
+				D6C348E815B59255003C6528 /* tab_faq_unselected_L_iPad.png in Resources */,
+				D6C348E915B59255003C6528 /* tab_multimedia_selected_L_iPad.png in Resources */,
+				D6C348EA15B59255003C6528 /* tab_multimedia_unselected_L_iPad.png in Resources */,
+				D6C348EB15B59255003C6528 /* tab_product_selected_L_iPad.png in Resources */,
+				D6C348EC15B59255003C6528 /* tab_product_unselected_L_iPad.png in Resources */,
+				D6C348ED15B59255003C6528 /* tab_safety_selected_L_iPad.png in Resources */,
+				D6C348EE15B59255003C6528 /* tab_safety_unselected_L_iPad.png in Resources */,
+				D6C348EF15B59255003C6528 /* tab_seat_selected_L_iPad.png in Resources */,
+				D6C348F015B59255003C6528 /* tab_seat_unselected_L_iPad.png in Resources */,
+				D6C348F315B5956E003C6528 /* tab_about_selected_L_iPad.png in Resources */,
+				D6C348F415B5956E003C6528 /* tab_about_unselected_L_iPad.png in Resources */,
+				D6C348F715B595A2003C6528 /* tab_about_selected_L_iPad@2x.png in Resources */,
+				D6C348F815B595A2003C6528 /* tab_about_unselected_L_iPad@2x.png in Resources */,
+				D67A47C015B6F89A0054C8CD /* arrow_L_ipad.png in Resources */,
+				D67A47C115B6F89A0054C8CD /* bg_white_L_ipad.png in Resources */,
+				D67A47C215B6F89A0054C8CD /* btn_blank_L_ipad.png in Resources */,
+				D67A47C315B6F89A0054C8CD /* close_L_ipad.png in Resources */,
+				D67A47C715B6F89A0054C8CD /* table_cell_L_ipad.png in Resources */,
+				D67A47C815B6F89A0054C8CD /* trans_L_ipad.png in Resources */,
+				D67A47D215B6F8A50054C8CD /* arrow_L_ipad@2x.png in Resources */,
+				D67A47D315B6F8A50054C8CD /* bg_white_L_ipad@2x.png in Resources */,
+				D67A47D415B6F8A50054C8CD /* btn_blank_L_ipad@2x.png in Resources */,
+				D67A47D515B6F8A50054C8CD /* close_L_ipad@2x.png in Resources */,
+				D67A47D915B6F8A50054C8CD /* table_cell_L_ipad@2x.png in Resources */,
+				D67A47DA15B6F8A50054C8CD /* trans_L_ipad@2x.png in Resources */,
+				D677197E15B7D6CD00C074B5 /* table_bg_L_ipad.png in Resources */,
+				D677197F15B7D6CD00C074B5 /* table_bg_L_ipad@2x.png in Resources */,
+				D677198215B7D88300C074B5 /* header_L_ipad.png in Resources */,
+				D677198315B7D88300C074B5 /* header_L_ipad@2x.png in Resources */,
+				D677198515B7E53600C074B5 /* webSite_btn_L_ipad@2x.png in Resources */,
+				D677198715B7E53E00C074B5 /* webSite_btn_L_ipad.png in Resources */,
+				D63B5B2715B820D60037EB88 /* btn_back_L_ipad.png in Resources */,
+				D63B5B2815B820D60037EB88 /* btn_dropdown_selected_L_ipad.png in Resources */,
+				D63B5B2915B820D60037EB88 /* btn_home_L_ipad.png in Resources */,
+				D63B5B2C15B820F50037EB88 /* both_nonselected_L_ipad.png in Resources */,
+				D63B5B2D15B820F50037EB88 /* btn_dropdown_unselected_L_ipad.png in Resources */,
+				D677BE2E15B8479300E88775 /* DetailInfoView_iPad.xib in Resources */,
+				D67B9E3715B941C5000537B3 /* ProductCell.xib in Resources */,
+				D67B9E3A15B941C5000537B3 /* ProductInfoView.xib in Resources */,
+				D6827CE515B9812D001649EF /* KTTabBar.xib in Resources */,
+				D6827CE815B9812D001649EF /* KTTabBarItem.xib in Resources */,
+				D6827D0415B9ABE1001649EF /* black_arrow_ipad.png in Resources */,
+				D6827D0515B9ABE1001649EF /* black_arrow_ipad@2x.png in Resources */,
+				D6827D0615B9ABE1001649EF /* down_arrow_ipad.png in Resources */,
+				D6827D0715B9ABE1001649EF /* down_arrow_ipad@2x.png in Resources */,
+				D6827D0815B9ABE1001649EF /* hand_selected_ipad.png in Resources */,
+				D6827D0915B9ABE1001649EF /* hand_selected_ipad@2x.png in Resources */,
+				D6827D0A15B9ABE1001649EF /* hand_unselected_ipad.png in Resources */,
+				D6827D0B15B9ABE1001649EF /* hand_unselected_ipad@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A1DDD15AE9E0600E3F1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A1DEC15AE9E0600E3F1C1 /* InfoPlist.strings in Resources */,
+				D6EF6D8B15B97CCF00EA48A1 /* Car_seat.db in Resources */,
+				D67C1DF115BD156A00C64BBB /* Car_seat.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D67A1DDE15AE9E0600E3F1C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67A1DC115AE9E0600E3F1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67C1DEF15BD14E400C64BBB /* CGCommon.m in Sources */,
+				D67A1DD615AE9E0600E3F1C1 /* main.m in Sources */,
+				D67A1DFD15AEA15000E3F1C1 /* HomeViewController.m in Sources */,
+				D67A1E0A15AEAE8100E3F1C1 /* SeatCheckerViewController.m in Sources */,
+				D67A1E0F15AEAECB00E3F1C1 /* InformationViewController.m in Sources */,
+				D67A1E1415AEAEF800E3F1C1 /* FAQViewController.m in Sources */,
+				D67A1E1915AEAF3100E3F1C1 /* AboutViewController.m in Sources */,
+				D67A78C515B42EF000892781 /* MultiMediaViewController.m in Sources */,
+				D67A33D615B52EC3003CD142 /* SeatCheckerImageGalleryViewController.m in Sources */,
+				D6E11BFD15B547C8004892A0 /* ProductGuidViewController.m in Sources */,
+				D67A478215B6C6670054C8CD /* AnimateViews.m in Sources */,
+				D677198E15B80B5100C074B5 /* UIColor+Additions.m in Sources */,
+				D63B5B1915B81FDB0037EB88 /* ProductInfo.m in Sources */,
+				D63B5B3515B821580037EB88 /* AppDelegate.m in Sources */,
+				D677BE2B15B8478000E88775 /* DetailInfoViewController.m in Sources */,
+				D67B9E3615B941C5000537B3 /* ProductCell.m in Sources */,
+				D67B9E3815B941C5000537B3 /* ProductCellHeaderView.m in Sources */,
+				D67B9E3915B941C5000537B3 /* ProductInfoView.m in Sources */,
+				D6827CE415B9812D001649EF /* KTTabBar.m in Sources */,
+				D6827CE615B9812D001649EF /* KTTabBarDataSource.m in Sources */,
+				D6827CE715B9812D001649EF /* KTTabBarItem.m in Sources */,
+				D6827D0015B9ABE1001649EF /* ViewWithTitle.m in Sources */,
+				D6827D0115B9ABE1001649EF /* DetailedTableDataSource.m in Sources */,
+				D6827D0215B9ABE1001649EF /* DetailedTableView.m in Sources */,
+				D6827D0315B9ABE1001649EF /* FAQ.m in Sources */,
+				D6827D0C15B9ABE1001649EF /* SectionHeaderView.m in Sources */,
+				D6827D0D15B9ABE1001649EF /* SectionInfo.m in Sources */,
+				D67C1DDC15BD13A600C64BBB /* CObjectTranscoder.m in Sources */,
+				D67C1DDD15BD13A600C64BBB /* CSqliteDatabase.m in Sources */,
+				D67C1DDE15BD13A600C64BBB /* CSqliteDatabase_Extensions.m in Sources */,
+				D67C1DDF15BD13A600C64BBB /* CSqliteDatabase_Functions.m in Sources */,
+				D67C1DE015BD13A600C64BBB /* CSqliteEnumerator.m in Sources */,
+				D67C1DE115BD13A600C64BBB /* CSqliteStatement.m in Sources */,
+				D67C1DE215BD13A600C64BBB /* DBFile.m in Sources */,
+				D67C1DE315BD13A600C64BBB /* CSqliteDatabase_Deprecated.m in Sources */,
+				D67C1DE415BD13A600C64BBB /* CPersistentObject.m in Sources */,
+				D67C1DE515BD13A600C64BBB /* CPersistentObjectManager.m in Sources */,
+				D67C1DE615BD13A600C64BBB /* CRandomAccessTemporaryTable.m in Sources */,
+				D67C1DE715BD13A600C64BBB /* NSArray_SqlExtensions.m in Sources */,
+				D67C1DE815BD13A600C64BBB /* NSData_SqlExtensions.m in Sources */,
+				D67C1DE915BD13A600C64BBB /* NSDate_SqlExtension.m in Sources */,
+				D67C1DEA15BD13A600C64BBB /* NSDictionary_SqlExtensions.m in Sources */,
+				D67C1DEB15BD13A600C64BBB /* NSString_SqlExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67A1DDB15AE9E0600E3F1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67A1DEF15AE9E0600E3F1C1 /* CarSeatInfoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67A1DE615AE9E0600E3F1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67A1DC415AE9E0600E3F1C1 /* CarSeatInfo */;
+			targetProxy = D67A1DE515AE9E0600E3F1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D67A1DD215AE9E0600E3F1C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67A1DD315AE9E0600E3F1C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D67A1DEA15AE9E0600E3F1C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67A1DEB15AE9E0600E3F1C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67A1DF015AE9E0600E3F1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D67A1DF115AE9E0600E3F1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67A1DF315AE9E0600E3F1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSeatInfo/CarSeatInfo-Prefix.pch";
+				INFOPLIST_FILE = "CarSeatInfo/CarSeatInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D67A1DF415AE9E0600E3F1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gurvinder Batra (Q3HXH3MWZ2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSeatInfo/CarSeatInfo-Prefix.pch";
+				INFOPLIST_FILE = "CarSeatInfo/CarSeatInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9C00DF6F-4F4E-4DFD-8A0C-33501CDFAE60";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D67A1DF615AE9E0600E3F1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarSeatInfo.app/CarSeatInfo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSeatInfo/CarSeatInfo-Prefix.pch";
+				INFOPLIST_FILE = "CarSeatInfoTests/CarSeatInfoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D67A1DF715AE9E0600E3F1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarSeatInfo.app/CarSeatInfo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarSeatInfo/CarSeatInfo-Prefix.pch";
+				INFOPLIST_FILE = "CarSeatInfoTests/CarSeatInfoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67A1DBF15AE9E0600E3F1C1 /* Build configuration list for PBXProject "CarSeatInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A1DF015AE9E0600E3F1C1 /* Debug */,
+				D67A1DF115AE9E0600E3F1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67A1DF215AE9E0600E3F1C1 /* Build configuration list for PBXNativeTarget "CarSeatInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A1DF315AE9E0600E3F1C1 /* Debug */,
+				D67A1DF415AE9E0600E3F1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67A1DF515AE9E0600E3F1C1 /* Build configuration list for PBXNativeTarget "CarSeatInfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67A1DF615AE9E0600E3F1C1 /* Debug */,
+				D67A1DF715AE9E0600E3F1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D67A1DBC15AE9E0600E3F1C1 /* Project object */;
+}

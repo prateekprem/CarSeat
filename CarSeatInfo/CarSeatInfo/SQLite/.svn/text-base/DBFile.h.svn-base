@@ -1,0 +1,23 @@
+//
+//  DBFile.h
+
+
+
+#import <Foundation/Foundation.h>
+#import <sqlite3.h>
+
+
+@interface DBFile : NSObject {
+
+
+	sqlite3 *dbConnection;
+
+}
+
++(void)createDBcopy:(NSString*)fileName;
++ (NSString *) getDBPath ;
++(NSArray *) getData :(NSString*)query;
+
++(BOOL) executeQuery:(NSString*)query;
++(NSArray *)getAllTables;
+@end

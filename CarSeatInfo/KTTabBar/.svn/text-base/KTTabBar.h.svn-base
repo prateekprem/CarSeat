@@ -1,0 +1,51 @@
+//
+//  KTTabBar.h
+//  KTTabBar
+//
+//  Created by RAVI DAS on 29/03/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "KTTabBarItem.h"
+
+@protocol tabDelete <NSObject> 
+- (void)tapped:(int)selectedItem;
+@end
+@class AppDelegate, SyncDataController;
+@interface KTTabBar : UIViewController<KTTabBarItemDelegate,UINavigationBarDelegate,UIGestureRecognizerDelegate>
+{
+    NSMutableArray *items;
+    SyncDataController* _syncDataController;
+    
+    IBOutlet UIScrollView *tabBar;
+    BOOL selectEnable;
+    UIViewController *rootViewController;
+    BOOL showTabBar;
+    id <tabDelete> delegate;
+    @private
+    IBOutlet UIView *bar;
+     IBOutlet UINavigationItem *title1;
+     IBOutlet UIImageView *tabBarBackgroundImage;
+     IBOutlet UILabel *titleLbl;
+}
+
+@property (retain) id <tabDelete> delegate;
+@property (strong,nonatomic) IBOutlet UIView *rootView;
+//@property (strong, nonatomic) NSMutableArray *viewCntrollers;
+@property (strong, nonatomic) NSMutableArray *items;
+@property (strong, nonatomic) id rootViewController;
+@property (nonatomic)int selectedItem;
+@property (nonatomic)BOOL selectEnable;
+@property (nonatomic,retain) UIButton *logoutBtn;
+//-(IBAction)tapped:(id)sender;
+- (IBAction)detailButtonClicked:(id)sender;
+-(IBAction)logoutButtonClicked:(id)sender;
+-(void)removeTabBar;
+-(void)addItem:(KTTabBarItem*)tabBarItem;
+-(void)selectItem:(int)index;
+-(void)isEnabled:(BOOL)enabled;
+-(KTTabBarItem*)itemAtIndex:(int)index;
+//- (void)checkForSyncContentAvailability;
+-(void)animateOut:(UIImage*)image;
+@end
